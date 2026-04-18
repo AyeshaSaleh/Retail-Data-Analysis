@@ -1,37 +1,33 @@
-# 🗄️ SQL Analytics & Database Management
+# US Retail Insights: Superstore Sales & Profitability Analysis
 
-This repository contains a collection of SQL-based projects focused on relational database design, data manipulation (DML), and complex analytical querying. It showcases my ability to structure raw data into meaningful schemas and extract actionable insights using industry-standard SQL practices.
-
----
-
-## 🎯 Project Overview
-The projects within this repository focus on solving business-logic problems through structured data. Key areas include:
-* **Database Schema Design:** Creating normalized tables (1NF, 2NF, 3NF) to reduce data redundancy.
-* **Complex Data Extraction:** Using advanced joins, subqueries, and window functions.
-* **Data Cleaning with SQL:** Standardizing records and handling null values directly within the database.
+This repository features an in-depth data analysis project focused on the operations of a major **US-based Superstore**. By leveraging the Superstore dataset, this project uncovers the economic drivers behind domestic retail performance across different states and consumer segments.
 
 ---
 
-## 🛠️ Technical Skills Demonstrated
-* **SQL Dialects:** MySQL / PostgreSQL / SQL Server.
-* **Query Optimization:** Writing efficient queries for large datasets.
-* **Relational Mapping:** Designing Entity-Relationship (ER) diagrams to visualize data flow.
-* **Business Logic Implementation:** Creating views, stored procedures, and triggers to automate data tasks.
+## 🎯 Project Objective
+The goal was to conduct a granular analysis of the US retail landscape to identify geographical profit centers and logistical inefficiencies. This study serves as a strategic roadmap for optimizing inventory and marketing spend across the four major US regions.
+
+## 🛠️ Technical Implementation
+* **Platform:** Microsoft Excel (Advanced Analytics)
+* **Data Processing:** Cleaned and structured 5,000+ transaction records for US-wide sales.
+* **Regional Modeling:** Segmented data into **Central, East, South, and West** regions to compare localized economic trends.
+* **Dynamic Visuals:** Created a multi-page interactive dashboard with cross-filtering capabilities.
 
 ---
 
-## 🔍 Key Analytical Workflows
-* **Multi-Table Joins:** Combining customer, order, and product data to analyze high-value sales channels.
-* **Aggregations & Filtering:** Utilizing `GROUP BY` and `HAVING` clauses to identify regional performance trends.
-* **Window Functions:** Calculating running totals, moving averages, and ranking performance without altering the underlying data.
-* **CTE (Common Table Expressions):** Structuring complex queries for better readability and performance.
+## 🔍 Key US Market Insights
+* **Regional Profit Leaders:** Identified that while the **West** region often leads in total sales volume, the **East** region maintains higher profitability in the 'Technology' category.
+* **The Shipping Cost Variable:** Analysis showed that shipping costs to the **Central** states disproportionately affected the margins of 'Furniture' sales due to high weight-to-value ratios.
+* **Category Dominance:** 'Technology' emerged as the most profitable category across all US regions, while 'Office Supplies' provided the most consistent high-frequency cash flow.
+* **State-Level Performance:** Isolated specific "Red Zone" states where high sales were paradoxically met with negative profit, indicating a need for localized pricing adjustments.
 
 ---
 
-## 🚀 How to Use
-1. **Clone** the repository.
-2. **Import** the `.sql` schema files into your local SQL environment (e.g., MySQL Workbench).
-3. **Execute** the analytical scripts to see the results of the business questions posed in each subdirectory.
+## 🚀 Interactive Dashboard Features
+* **Regional & State Drill-Down:** Toggle between broad US regions or specific states to see localized KPIs.
+* **Segment Filter:** Analyze performance differences between **Consumer, Corporate, and Home Office** buyers.
+* **Profitability Map:** A visual breakdown of the United States highlighting high and low margin territories.
+* **Year-over-Year (YOY) Growth:** Track how the US Superstore has scaled across different fiscal quarters.
 
 ---
-*Bridging the gap between raw data and structured business intelligence through SQL.*
+*Deep-dive analytics for data-driven retail management in the US market.*
