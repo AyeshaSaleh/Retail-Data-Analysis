@@ -8,7 +8,7 @@ This repository features an in-depth data analysis project focused on the operat
 The goal was to conduct a granular analysis of the US retail landscape to identify geographical profit centers and logistical inefficiencies. This study serves as a strategic roadmap for optimizing inventory and marketing spend across the four major US regions.
 
 ## 🛠️ Technical Implementation
-* **Platform:** Microsoft Excel (Advanced Analytics)
+* **Platform:** Microsoft Powerbi (Advanced Analytics)
 * **Data Processing:** Cleaned and structured 5,000+ transaction records for US-wide sales.
 * **Regional Modeling:** Segmented data into **Central, East, South, and West** regions to compare localized economic trends.
 * **Dynamic Visuals:** Created a multi-page interactive dashboard with cross-filtering capabilities.
